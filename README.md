@@ -2,6 +2,19 @@
 
 `py_opensdbrussels2026` is a tiny example package for the OpenSD 2026 Brussels summer school. It is intentionally small so it can be used to demonstrate how a Git repository is structured and how open source contributions work.
 
+## Assignment
+
+As part of this workshop we aim to co-develop a bit on this package our first assignment is to complete the participant list.
+
+1. Download and install [GitHub Desktop](https://desktop.github.com/).
+2. Clone this repository to your computer: [OWI-Lab/OpenSD2026_Brussels_intro_git](https://github.com/OWI-Lab/OpenSD2026_Brussels_intro_git).
+3. Add your name to the participant list in `participants.csv`
+4. Commit your changes to the repository.
+5. Push your changes to a new branch.
+6. Open a pull request.
+
+Secondly we try to resolve an open issue, this one; https://github.com/OWI-Lab/OpenSD2026_Brussels_intro_git/issues/1 
+
 ## What it does
 
 The package ships with a small CSV file of participants and exposes one public function:

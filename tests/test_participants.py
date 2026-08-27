@@ -28,7 +28,6 @@ def test_participant_countries_are_real() -> None:
             getattr(country, "common_name", country.name),
             getattr(country, "official_name", country.name),
         }
-        if country.name != "Belgium"
     }
     invalid_countries = countries - recognized_countries
 
