@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py_opensdbrussels2026"
+version = "0.1.0"
+description = "A tiny demo Python package for the OpenSD 2026 Brussels summer school"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [
+  { name = "OpenSD 2026 Brussels workshop contributors" }
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+  "pycountry>=24.6.1",
+  "pytest>=8.0",
+]
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"py_opensdbrussels2026.data" = ["participants.csv"]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]
