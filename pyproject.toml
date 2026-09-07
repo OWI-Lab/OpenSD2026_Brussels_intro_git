@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "py_opensdbrussels2026"
-version = "0.1.0"
+version = "0.1.1"
 description = "A tiny demo Python package for the OpenSD 2026 Brussels summer school"
 readme = "README.md"
 requires-python = ">=3.9"
